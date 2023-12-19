@@ -4,15 +4,15 @@ class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>PotLock</title>
+          <title>nada.bot</title>
           <meta
             name="description"
-            content="Bringing public goods funding to the table, built on NEAR"
+            content="Making your contracts human compatible"
           />
-          <meta property="og:title" content="PotLock" />
+          <meta property="og:title" content="nada.bot" />
           <meta
             property="og:description"
-            content="Bringing public goods funding to the table, built on NEAR"
+            content="Making sure your users are not bot, built on NEAR"
           />
           <meta
             property="og:image"
