@@ -1,2 +1,2 @@
-# nadabot-next
-NadaBot Next JS + Landing page
+# nada.bot Lnading
+Nada bot landing

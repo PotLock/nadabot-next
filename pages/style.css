@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #d9d9d9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #a22020;
+  --dl-color-danger-500: #bf2626;
+  --dl-color-danger-700: #e14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #ffffff;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003eb3;
+  --dl-color-primary-300: #0074f0;
+  --dl-color-primary-500: #14a9ff;
+  --dl-color-primary-700: #85dcff;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32a94c;
+  --dl-color-success-700: #4cc366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+
+  /*  */
+  --Brand-Primary: #dd3345;
+  --Peach-50: #fef6ee;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Mona-Sans", sans-serif;
+}
+h1 {
+  font-family: "Lora", serif;
+  letter-spacing: -2.912px;
+}
+.desc-logo path:last-of-type {
+  fill: white;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.5rem 3.5rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  transition: all 300ms;
+  border: 1px solid;
+}
+.btn-dark {
+  color: white;
+  border-color: rgb(159, 18, 57);
+  background: rgb(159, 18, 57);
+}
+.btn-white {
+  color: rgb(159, 18, 57);
+  border-color: rgb(159, 18, 57);
+  box-shadow: 0px 0px 0px 1px rgba(172, 73, 45, 0.38);
+}
+.btn-dark:hover {
+  color: rgb(159, 18, 57);
+  background: white;
+}
+.btn-white:hover {
+  color: white;
+  background: rgb(159, 18, 57);
+}
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+  }
+}
+.review-card:hover div {
+  color: white;
+}
+#review-1 {
+  background: rgb(159, 18, 57);
+}
+#review-1 div {
+  color: white;
+}
+#review-1:hover {
+  background: white;
+}
+#review-1:hover div {
+  color: initial;
+}
+
+.team-card:hover .arrow {
+  transform: translateX(6px);
+}
