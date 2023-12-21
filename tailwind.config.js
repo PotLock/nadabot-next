@@ -11,6 +11,10 @@ module.exports = {
   theme: {
     fontFamily: {
       grace: ["Covered By Your Grace", "cursive"],
+      oi: ["Oi", "serif"],
+    },
+    backgroundImage: {
+      "footer-texture": "url('/assets/footer/footer-bg.svg')",
     },
     extend: {},
   },

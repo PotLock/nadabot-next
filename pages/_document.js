@@ -50,7 +50,10 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap"
             rel="stylesheet"
           />
-
+          <link
+            href="https://fonts.googleapis.com/css2?family=Oi&display=swap"
+            rel="stylesheet"
+          />
           <link
             href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
             rel="stylesheet"

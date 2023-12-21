@@ -3,8 +3,8 @@ import { links, socialLinks } from "./animations/data/footerLinks";
 
 const Footer = () => {
   return (
-    <div className="bg-footer-texture bg-[#FAFAFA] w-full pt-32">
-      <div className="contaienr flex flex-col items-center">
+    <div className="bg-footer-texture bg-[#FAFAFA] w-full pt-32 flex justify-center">
+      <div className="container flex flex-col items-center">
         <div className="text-[#F7CE55] text-6xl font-medium stroke-black footer-title">
           prove that you are
         </div>
@@ -16,8 +16,8 @@ const Footer = () => {
             </a>
           ))}
         </div>
-
-        <div className="flex gap-3">
+        <div className="w-full h-[1px] bg-[#292929] mt-14 mb-8" />
+        <div className="flex gap-3 mb-8">
           {socialLinks.map((link) => (
             <a href={link.url} key={link.url}>
               <img src={link.icon} alt={link.url} />
