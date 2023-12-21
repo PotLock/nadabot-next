@@ -9,6 +9,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      grace: ["Covered By Your Grace", "cursive"],
+    },
     extend: {},
   },
   plugins: [],

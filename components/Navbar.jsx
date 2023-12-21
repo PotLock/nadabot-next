@@ -6,9 +6,8 @@ const Navbar = () => {
         className="max-md:h-[30px] my-auto"
         alt="Logo"
       />
-      <a href="/app" target="_blank" className="btn btn-dark">
-        {" "}
-        Launch app{" "}
+      <a href="/" target="_blank" className="btn-main">
+        <div>Login</div>
       </a>
     </div>
   );
