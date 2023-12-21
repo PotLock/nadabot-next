@@ -1,33 +1,49 @@
+import SearchIcon from "../public/assets/hero/search-icon.svg";
+
 const Hero = () => {
   return (
-    <section className="mb-36">
-      <div className="items-center flex flex-col">
-        <header className="text-zinc-800 text-center text-2xl leading-10 whitespace-nowrap max-md:max-w-full">
-          Introducing Nada.bot
-        </header>
-        <h1 className="text-black text-center text-8xl font-[622] leading-[128px] self-stretch w-full mt-7 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-          Making your contracts human compatible.
-        </h1>
-        <div className="text-zinc-800 text-center text-3xl max-md:text-xl leading-[50px] self-stretch w-full mt-10 max-md:max-w-full">
-          <span className="">
-          nada.bot is the sybil check aggregator
-            to{" "}
-          </span>
-          <span className="font-bold">built on near</span>
-          <span className="">
-            {" "}
-            transparently through our global donor network.{" "}
-          </span>
-          <span className="underline">prevent bots.</span>
+    <section className="mb-36 flex justify-center">
+      <div className="flex flex-col items-center hero w-fit">
+        <div className="relative w-fit text-7xl text-[#292929] font-medium flex items-center whitespace-nowrap gap-[0.2em]">
+          <div className="smile-icon">🤩</div> Making your{" "}
+          <img src="/assets/hero/plug.png" className="plug-icon" />
+          <div className="font-bold relative flex items-center gap-1">
+            contracts
+            <img src="/assets/hero/star.png" alt="" />
+            <img
+              src="/assets/hero/double-lines.svg"
+              className="absolute -bottom-[24%] w-full"
+              alt="style"
+            />
+          </div>
         </div>
-        <form className="items-stretch flex justify-between gap-5 mt-20 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-          <a className="btn btn-dark" href="/docs" target="_blank">
-            Verify
+        <div className="text-[#2D6FDB] text-[9.5rem] font-grace leading-[1.1]">
+          Human Compatible
+        </div>
+
+        <div className="flex items-center justify-center w-full gap-8 mt-3 relative">
+          <a href="/" target="_blank" className="btn-main text-4xl">
+            <div>Get Started</div>
           </a>
-          <a href="/docs" target="_blank" className="btn btn-white">
-             Docs
+          <a href="/" target="_blank" className="btn-main text-4xl">
+            <div className="text-black !bg-[#FEF6EE]">Learn More</div>
           </a>
-        </form>
+          <img
+            src="/assets/hero/roket-icon.png"
+            className="absolute -right-16"
+            alt="roket-icon"
+          />
+        </div>
+        <div className="searchbar mt-16">
+          <div className="searchbar-container">
+            <img src="/assets/hero/search-icon.svg" alt="search" />
+            <input type="text" placeholder="Enter a username" />
+            <div className="search-btn">
+              <SearchIcon />
+            </div>
+          </div>
+          <div className="search-shadow" />
+        </div>
       </div>
     </section>
   );

@@ -13,10 +13,12 @@ import RecentTransaction from "../components/RecentTransaction";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="container px-10 max-md:px-5">
-        <Navbar />
-        <Hero />
-        <RecentTransaction />
+      <div className="top-section px-10 max-md:px-5">
+        <div className="container">
+          <Navbar />
+          <Hero />
+        </div>
+        {/* <RecentTransaction />
       </div>
       <div className="flex w-full justify-center bg-rose-900">
         <Description />
@@ -27,7 +29,7 @@ const Home = () => {
         <ProjectCards />
         <MatchingRounds />
         <Reviews />
-        <JoinTeam />
+        <JoinTeam /> */}
       </div>
     </div>
   );
