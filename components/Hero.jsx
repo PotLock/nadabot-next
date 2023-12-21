@@ -1,4 +1,7 @@
 import SearchIcon from "../public/assets/hero/search-icon.svg";
+import Lottie from "lottie-react";
+import roket from "./animations/roket.json";
+import roket2 from "./animations/roket2.json";
 
 const Hero = () => {
   return (
@@ -28,10 +31,15 @@ const Hero = () => {
           <a href="/" target="_blank" className="btn-main text-4xl">
             <div className="text-black !bg-[#FEF6EE]">Learn More</div>
           </a>
-          <img
-            src="/assets/hero/roket-icon.png"
-            className="absolute -right-16"
-            alt="roket-icon"
+          {/* <Lottie
+            animationData={roket1}
+            loop={true}
+            className="absolute -right-16 w-44"
+          /> */}
+          <Lottie
+            animationData={roket2}
+            loop={true}
+            className="absolute -right-16 rotate-[65deg] w-44"
           />
         </div>
         <div className="searchbar mt-16">

@@ -1,14 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Description from "../components/Description";
-import CreateProject from "../components/CreateProject";
-import Donate from "../components/Donate";
-import ProjectCards from "../components/Projects";
-import MatchingRounds from "../components/MatchingRounds";
-import Reviews from "../components/Reviews";
-import JoinTeam from "../components/JoinTeam";
-import RecentTransaction from "../components/RecentTransaction";
 
 const Home = () => {
   return (
