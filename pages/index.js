@@ -19,6 +19,9 @@ const Home = () => {
         <div className="container">
           <Navbar />
           <Hero />
+          <div className="text-7xl max-lg:text-5xl max-md:text-3xl max-[540px]:text-xl my-14 text-center">
+            Coming Soon
+          </div>
         </div>
         {/* <RecentTransaction />
       </div>
