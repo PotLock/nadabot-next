@@ -13,7 +13,17 @@ import RecentTransaction from "../components/RecentTransaction";
 const Home = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="top-section px-10 max-md:px-5">
+      <div className="top-section px-10 max-md:px-5 relative overflow-clip">
+        <img
+          src="/assets/hero/bg-eff.svg"
+          className="absolute -left-[23rem]"
+          alt="bg-eff"
+        />
+        <img
+          src="/assets/hero/bg-eff.svg"
+          className="absolute -right-[20rem] rotate-[40deg]"
+          alt="bg-eff"
+        />
         <div className="container">
           <Navbar />
           <Hero />
