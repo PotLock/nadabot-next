@@ -43,21 +43,3 @@ export const socialLinks = [
     url: "/near",
   },
 ];
-// export const socialLinks = [
-//   {
-//     icon: "/assets/footer/twitter.svg",
-//     url: "/twitter",
-//   },
-//   {
-//     icon: "/assets/footer/linkedin.svg",
-//     url: "/linkedin",
-//   },
-//   {
-//     icon: "/assets/footer/telegram.svg",
-//     url: "/telegram",
-//   },
-//   {
-//     icon: "/assets/footer/near.svg",
-//     url: "/near",
-//   },
-// ];

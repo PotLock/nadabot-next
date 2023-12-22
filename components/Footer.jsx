@@ -12,13 +12,15 @@ const changeHover = (className) => {
 
 const Footer = () => {
   return (
-    <div className="bg-footer-texture bg-[#FAFAFA] w-full pt-32 flex justify-center">
+    <div className="bg-footer-texture bg-[#FAFAFA] w-full pt-32 flex justify-center px-10 max-md:px-5">
       <div className="container flex flex-col items-center">
-        <div className="text-[#F7CE55] text-6xl font-medium stroke-black footer-title">
+        <div className="text-[#F7CE55] text-6xl max-sm:text-3xl font-medium stroke-black footer-title">
           prove that you are
         </div>
-        <div className="text-[#2D6FDB] font-oi text-7xl mt-6">nada.bot</div>
-        <div className="flex font-medium justify-between max-w-[701px] w-full mt-12">
+        <div className="text-[#2D6FDB] font-oi text-7xl max-sm:text-4xl mt-6">
+          nada.bot
+        </div>
+        <div className="flex font-medium justify-between max-w-[701px] max-sm:text-xs w-full mt-12">
           {links.map((link, idx) => (
             <a
               href={link.url}
@@ -41,7 +43,6 @@ const Footer = () => {
               target="_blank"
               key={link.url}
             >
-              {/* <img src={link.icon} alt={link.url} /> */}
               {link.icon}
             </a>
           ))}
