@@ -1,7 +1,7 @@
-import Twitter from "../../../public/assets/footer/twitter.svg";
-import Linkedin from "../../../public/assets/footer/linkedin.svg";
-import Telegram from "../../../public/assets/footer/telegram.svg";
-import Near from "../../../public/assets/footer/near.svg";
+import Twitter from "../../public/assets/footer/twitter.svg";
+import Linkedin from "../../public/assets/footer/linkedin.svg";
+import Telegram from "../../public/assets/footer/telegram.svg";
+import Near from "../../public/assets/footer/near.svg";
 
 export const links = [
   {

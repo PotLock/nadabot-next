@@ -47,6 +47,7 @@ class CustomDocument extends Document {
           ></noscript>
         </Head>
         <body>
+          <Main></Main>
           <NextScript></NextScript>
           <div
             dangerouslySetInnerHTML={{
