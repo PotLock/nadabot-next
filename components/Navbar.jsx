@@ -6,7 +6,7 @@ const Navbar = () => {
         className="max-md:h-[30px] my-auto"
         alt="Logo"
       />
-      <a href="/" target="_blank" className="btn-main">
+      <a href="/app" target="_blank" className="btn-main">
         <div>Login</div>
       </a>
     </div>
