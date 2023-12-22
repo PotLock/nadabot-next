@@ -1,15 +1,6 @@
 import React from "react";
 import { links, socialLinks } from "./animations/data/footerLinks";
 
-const changeHover = (className) => {
-  console.log(className);
-  //   if (className.includes("random")) {
-  //     className.remove("random");
-  //   } else {
-  //     className.add("random");
-  //   }
-};
-
 const Footer = () => {
   return (
     <div className="bg-footer-texture bg-[#FAFAFA] w-full pt-32 flex justify-center px-10 max-md:px-5">

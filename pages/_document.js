@@ -4,7 +4,6 @@ class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <title>nada.bot</title>
           <meta
             name="description"
             content="Making your contracts human compatible"
@@ -19,10 +18,7 @@ class CustomDocument extends Document {
             content="https://ipfs.near.social/ipfs/bafkreianlsqm4fvjk57uzhodrtzwaqg7gbw2kvgq37sqs5cre343zcvdce"
           />
           <link rel="icon" href="/favicon.ico" sizes="32x32" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          ></meta>
+
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -51,7 +47,6 @@ class CustomDocument extends Document {
           ></noscript>
         </Head>
         <body>
-          <Main></Main>
           <NextScript></NextScript>
           <div
             dangerouslySetInnerHTML={{
