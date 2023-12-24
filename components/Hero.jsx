@@ -52,21 +52,21 @@ const Hero = () => {
           <Animation
             speed={0.8}
             animationJison={starFace}
-            className="smile-icon w-48"
+            className="smile-icon w-48 max-lg:w-32 max-md:w-24 max-md:-left-[6rem] max-sm:w-12 max-sm:-left-[2.7rem] max-sm:-top-[1rem]"
             interactivity={faceInteractivity}
           />
           {/* <div className="smile-icon max-lg:text-8xl max-md:text-5xl">🤩</div>{" "} */}
           Making your{" "}
           <img
             src="/assets/hero/plug.png"
-            className="plug-icon max-md:w-16"
+            className="plug-icon max-md:w-16 max-[540px]:w-11"
             alt="plug-icon"
           />
           <div className="font-bold relative flex items-center gap-1">
             contracts
             <img
               src="/assets/hero/star.png"
-              className="start-icon max-md:h-8"
+              className="start-icon max-md:h-8 max-sm:h-5"
               alt="start-icon"
             />
             <img
@@ -106,7 +106,7 @@ const Hero = () => {
             interactivity={armInteractivity}
             speed={0.8}
             animationJison={mechanicalArm}
-            className="absolute -left-20 w-32 -rotate-45 -bottom-32"
+            className="absolute -left-20 w-32 max-sm:w-20 max-sm:-left-5 -rotate-45 -bottom-32"
           />
           <div className="searchbar-container">
             <img src="/assets/hero/search-icon.svg" alt="search" />
@@ -120,7 +120,7 @@ const Hero = () => {
             interactivity={partyInteractivity}
             speed={1}
             animationJison={partyIcon}
-            className="absolute right-1/3 w-60 -bottom-32"
+            className="absolute right-1/3 max-sm:right-0 max-md:right-1/4 w-60 -bottom-32"
           />
         </div>
       </div>
