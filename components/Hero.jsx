@@ -7,6 +7,7 @@ import roket2 from "./animations/roket2.json";
 import mechanicalArm from "./animations/mechanical-arm.json";
 import starFace from "./animations/star-face.json";
 import Animation from "./Animation";
+import DoubleLine from "./svgs/DoubleLine";
 
 const faceInteractivity = {
   mode: "scroll",
@@ -69,11 +70,7 @@ const Hero = () => {
               className="start-icon max-md:h-8 max-sm:h-5"
               alt="start-icon"
             />
-            <img
-              src="/assets/hero/double-lines.svg"
-              className="absolute -bottom-[24%] w-full"
-              alt="style"
-            />
+            <DoubleLine />
           </div>
         </div>
         <div className="relative text-[#2D6FDB] text-[9.5rem] max-lg:text-[7rem] max-md:text-[4.5rem] max-[540px]:text-5xl max-[540px]:mt-1 font-grace leading-[1.1]">
