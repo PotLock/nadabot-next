@@ -18,7 +18,7 @@ const spring = {
  * @framerSupportedLayoutHeight fixed
  */
 
-const CardFlip = ({ props, Component }) => {
+const CardHover = ({ props, Component }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -56,7 +56,6 @@ const CardFlip = ({ props, Component }) => {
     dx.set(-rotateXaxis);
     dy.set(rotateYaxis);
   }, [rotateXaxis, rotateYaxis]);
-  console.log(props);
   return (
     <motion.div
       transition={spring}
@@ -134,4 +133,4 @@ const CardFlip = ({ props, Component }) => {
     </motion.div>
   );
 };
-export default CardFlip;
+export default CardHover;

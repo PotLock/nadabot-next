@@ -76,7 +76,7 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="relative text-[#2D6FDB] text-[9.5rem] max-lg:text-[7rem] max-md:text-[4.5rem] max-[540px]:text-5xl font-grace leading-[1.1]">
+        <div className="relative text-[#2D6FDB] text-[9.5rem] max-lg:text-[7rem] max-md:text-[4.5rem] max-[540px]:text-5xl max-[540px]:mt-1 font-grace leading-[1.1]">
           Human Compatible
         </div>
 
