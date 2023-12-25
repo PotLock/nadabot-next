@@ -29,7 +29,7 @@ const Ellipse = () => {
         viewBox="0 0 1855 1126"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="absolute w-[130%] h-full right-[-30%] -top-8 -z-[1px]"
+        className="absolute -top-8 right-[-30%] z-[-1] h-full w-fit"
       >
         <motion.path
           variants={lineAnimate}

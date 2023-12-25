@@ -9,7 +9,7 @@ export const lineAnimate = {
     strokeLinecap: "round",
   },
 };
-const DoubleLine = () => {
+const DoubleLine = ({ className }) => {
   const ref = useRef();
   return (
     <motion.div
@@ -17,7 +17,7 @@ const DoubleLine = () => {
       initial="hidden"
       whileInView={"show"}
       ref={ref}
-      className="flex absolute -bottom-[24%] w-full"
+      className={`absolute -bottom-[24%] ml-[-10%] flex w-[110%] ${className}`}
     >
       <svg
         viewBox="0 0 423 34"

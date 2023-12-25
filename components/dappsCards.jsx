@@ -6,16 +6,16 @@ import CardHover from "./CardHover";
 import Ellipse from "./svgs/Ellipse";
 
 const Card = ({ title, text, img, url, likeLabel }) => (
-  <motion.div className="shadow-[4px_4px_0px_0px_#3D3D3D] bg-white flex flex-col items-center text-center p-8 rounded-[32px] border border-[3D3D3D]">
+  <motion.div className="flex flex-col items-center rounded-[32px] border border-[3D3D3D] bg-white p-8 text-center shadow-[4px_4px_0px_0px_#3D3D3D]">
     <img src={img} alt="icon" className="w-80" />
-    <div className="text-[#292929] text-5xl max-lg:text-2xl font-bold">
+    <div className="text-5xl font-bold text-[#292929] max-lg:text-2xl">
       {title}
     </div>
-    <div className="text-3xl max-lg:text-xl text-[#A6A6A6]">{text}</div>
+    <div className="text-3xl text-[#A6A6A6] max-lg:text-xl">{text}</div>
     <a
       href={url}
       target="_blank"
-      className="text-3xl max-lg:text-xl mt-7 gap-2 bg-[#2D6FDB] w-full text-white flex justify-center items-center rounded-[18px] py-3"
+      className="mt-7 flex w-full items-center justify-center gap-2 rounded-[18px] bg-[#2D6FDB] py-3 text-3xl text-white max-lg:text-xl"
     >
       {likeLabel} <Arrow className="h-5" />
     </a>
@@ -41,16 +41,16 @@ const cards = [
 
 const DappsCards = () => {
   return (
-    <div className="relative overflow-x-clip flex justify-center w-full">
+    <div className="relative flex w-full justify-center overflow-x-clip">
       <Ellipse />
-      <div className="container flex flex-col items-center mt-12 gap-12 mb-48 px-10 max-md:px-5">
-        <div className="bg-white relative border border-neutral-[#C7C7C7] rounded-[200px] w-full max-w-[800px] flex flex-col py-6 gap-8 max-[540px]:gap-4 items-center">
-          <div className="text-2xl max-[540px]:text-base font-semibold">
+      <div className="container mb-48 mt-12 flex flex-col items-center gap-12 px-10 max-md:px-4 max-sm:mb-24">
+        <div className="border-neutral-[#C7C7C7] relative flex w-full max-w-[800px] flex-col items-center gap-8 rounded-[200px] border bg-white py-6 max-[540px]:gap-4">
+          <div className="text-2xl font-semibold max-[540px]:text-xl">
             dApps using us
           </div>
           <PotlockLogo className="max-w-64 max-[540px]:w-[70%]" />
         </div>
-        <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-8 w-full relative min-h-[650px] max-md:h-[1200px]">
+        <div className="relative grid min-h-[650px] w-full grid-cols-2 gap-8 max-lg:h-[1200px] max-lg:grid-cols-1">
           {cards.map((cardData) => (
             <CardHover
               key={cardData.url}
