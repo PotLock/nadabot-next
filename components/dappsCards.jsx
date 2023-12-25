@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import PotlockLogo from "../public/assets/potlock-logo.svg";
+import PotlockLogo from "../public/assets/potLock-logo.svg";
 import Arrow from "../public/assets/arrow-tr.svg";
 import CardHover from "./CardHover";
 import Ellipse from "./svgs/Ellipse";
