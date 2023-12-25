@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="text-[#2D6FDB] font-oi text-7xl max-sm:text-4xl mt-6">
           nada.bot
         </div>
-        <div className="flex font-medium justify-between max-w-[701px] max-sm:text-xs w-full mt-12">
+        <div className="flex font-medium justify-between max-w-[701px] max-sm:text-[10px]  w-full mt-12">
           {links.map((link, idx) => (
             <a
               href={link.url}
