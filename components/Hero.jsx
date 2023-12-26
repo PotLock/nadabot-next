@@ -86,7 +86,7 @@ const Hero = () => {
             <div>Get Started</div>
           </a>
           <a
-            href="/doc"
+            href="/docs"
             target="_blank"
             className="btn-main text-4xl max-lg:text-3xl max-md:text-xl max-[450px]:text-base"
           >
@@ -107,7 +107,7 @@ const Hero = () => {
           />
           <div className="searchbar-container">
             <img src="/assets/hero/search-icon.svg" alt="search" />
-            <input type="text" placeholder="Enter a username" />
+            <input type="text" placeholder="Enter a username (Coming soon)" />
             <div className="search-btn">
               <SearchIcon />
             </div>
