@@ -7,7 +7,7 @@ const Navbar = () => {
         alt="Logo"
       />
       <a href="/app" target="_blank" className="btn-main">
-        <div>Login</div>
+        <div>Launch App</div>
       </a>
     </div>
   );
