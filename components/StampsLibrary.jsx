@@ -51,7 +51,7 @@ const StampsLibrary = () => {
           Check out our collection of 3rd party stamps to get verified
         </div>
         <a
-          href="/support"
+          href="/verify"
           target="_blank"
           className="btn-main text-4xl max-lg:text-3xl max-md:text-xl max-[450px]:text-base"
         >
