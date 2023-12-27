@@ -25,7 +25,7 @@ const Card = ({ title, text, img, url, likeLabel }) => (
 const cards = [
   {
     title: "For Humans",
-    text: "Proof your a human, collect checks, and earn a higher on chain reputation...",
+    text: "Prove you are a human, collect checks, and earn a higher on chain reputation...",
     img: "/assets/verify-card.svg",
     likeLabel: "Get Verified",
     url: "/verify",
