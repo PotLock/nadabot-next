@@ -13,14 +13,12 @@ class CustomDocument extends Document {
             property="og:description"
             content="Making sure your users are not bot, built on NEAR"
           />
-          <meta
-            property="og:image"
-            content="https://ipfs.near.social/ipfs/bafkreianlsqm4fvjk57uzhodrtzwaqg7gbw2kvgq37sqs5cre343zcvdce"
-          />
+          <meta property="twitter:card" content="summary_large_image"></meta>
+          <meta name="image" content="/preview.png" />
+          <meta property="og:image" content="/preview.png" />
           <link rel="icon" href="/favicon.ico" sizes="32x32" />
 
           <meta charSet="utf-8"></meta>
-          <meta property="twitter:card" content="summary_large_image"></meta>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
