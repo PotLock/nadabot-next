@@ -13,6 +13,7 @@ const RedirectLinks = {
   "/docs": "https://docs.potlock.io/contracts/sybil-contract-wip",
   "/contract": "https://github.com/PotLock/core/tree/main/contracts/sybil",
   "/near": "https://near.social/mob.near/widget/MyPage?accountId=nadabot.near",
+  "/bot": "https://docs.nada.bot/",
 };
 
 const Redirect = () => {
