@@ -21,6 +21,7 @@ const RedirectLinks = {
   "/staging": "https://staging.nada.bot",
   "/testnet": "https://testnet.nada.bot",
   "/repo": "https://github.com/PotLock/nadabot-app",
+  "/requests": "https://github.com/orgs/PotLock/projects/6/views/1",
 };
 
 const Redirect = () => {
