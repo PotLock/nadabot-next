@@ -20,6 +20,7 @@ const RedirectLinks = {
   "/changelog": "https://github.com/PotLock/core/releases",
   "/staging": "https://staging.nada.bot",
   "/testnet": "https://testnet.nada.bot",
+  "/repo": "https://github.com/PotLock/nadabot-app",
 };
 
 const Redirect = () => {
