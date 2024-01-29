@@ -105,14 +105,14 @@ const Hero = () => {
             animationJison={mechanicalArm}
             className="absolute -bottom-32 -left-20 w-32 -rotate-45 max-sm:-left-5 max-sm:w-20"
           />
-          <div className="searchbar-container">
+          {/* <div className="searchbar-container">
             <img src="/assets/hero/search-icon.svg" alt="search" />
             <input type="text" placeholder="Enter a username (Coming soon)" />
             <div className="search-btn">
               <SearchIcon />
             </div>
           </div>
-          <div className="search-shadow" />
+          <div className="search-shadow" /> */}
           <Animation
             interactivity={partyInteractivity}
             speed={1}

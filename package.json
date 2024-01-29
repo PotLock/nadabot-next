@@ -13,9 +13,11 @@
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
+    "big.js": "^6.2.1",
     "dangerous-html": "0.1.13",
     "framer-motion": "^10.16.16",
     "lottie-react": "^2.4.0",
+    "near-api-js": "^3.0.2",
     "next": "^12.1.0",
     "nextjs-google-analytics": "^2.3.3",
     "prop-types": "15.7.2",
