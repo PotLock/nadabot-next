@@ -11,7 +11,7 @@ class CustomDocument extends Document {
           <meta property="og:title" content="nada.bot" />
           <meta
             property="og:description"
-            content="Making sure your users are not bot, built on NEAR"
+            content="Making sure your users are not a bot, built on NEAR"
           />
           <meta property="twitter:card" content="summary_large_image"></meta>
           <meta name="image" content="/preview.png" />
