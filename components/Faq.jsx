@@ -14,8 +14,10 @@ const Faq = () => {
         <DoubleLine className="relative mt-[-12px] w-[140%]" />
       </div>
       <div className="mb-12 mt-6 text-3xl text-[#7B7B7B]  max-sm:mb-8 max-sm:text-xl">
-        We got some answers for you? Not here then check out the <a href="/support" target="_blank">telegram support
-        channel!</a>
+        We got some answers for you? Not here then check out the{" "}
+        <a href="/support" target="_blank">
+          telegram support channel!
+        </a>
       </div>
       <div className="bg-#FAFAFA flex w-full cursor-pointer flex-col rounded-xl border border-[#3D3D3D]">
         {faqData.map((faq) => (
@@ -29,7 +31,7 @@ const Faq = () => {
             </div>
             <div
               className={`faq-an max-h-0 overflow-hidden text-xl text-[#B0B0B0] max-sm:text-lg ${
-                toogleId === faq.id ? "max-h-16" : ""
+                toogleId === faq.id ? "max-h-52" : ""
               }`}
             >
               {faq.an}
