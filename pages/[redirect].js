@@ -15,7 +15,7 @@ const RedirectLinks = {
   "/near": "https://near.social/mob.near/widget/MyPage?accountId=nadabot.near",
   "/bot": "https://docs.nada.bot/",
   "/docs-repo": "https://github.com/nadabots/nadabot-docs",
-  "/backlog": "https://github.com/orgs/PotLock/projects/5/views/2",
+  "/backlog": "https://github.com/orgs/PotLock/projects/8/views/15",
   "feedback": "https://github.com/PotLock/nadabot-app/issues/new/choose",
   "/changelog": "https://github.com/PotLock/core/releases",
   "/staging": "https://staging.nada.bot",
