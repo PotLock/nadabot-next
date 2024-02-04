@@ -5,6 +5,9 @@ const RedirectLinks = {
   "/linkedin": "https://www.linkedin.com/company/nada-bot/",
   "/bos":
     "https://near.social/mob.near/widget/ProfilePage?accountId=nadabot.near",
+    "/integrate": "https://docs.nada.bot/guides/for-applications",
+    "/verify": "https://app.nada.bot",
+    "/submit": "https://app.nada.bot/add-stamp",
   "/telegram": "https://t.me/+eBl5J1sCHaU3ODVh",
   "/support": "https://t.me/+eBl5J1sCHaU3ODVh",
   "/potlock":
