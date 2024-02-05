@@ -19,7 +19,7 @@ const RedirectLinks = {
   "/bot": "https://docs.nada.bot/",
   "/docs-repo": "https://github.com/nadabots/nadabot-docs",
   "/backlog": "https://github.com/orgs/PotLock/projects/8/views/15",
-  "feedback": "https://github.com/PotLock/nadabot-app/issues/new/choose",
+  "/feedback": "https://github.com/PotLock/nadabot-app/issues/new/choose",
   "/changelog": "https://github.com/PotLock/core/releases",
   "/staging": "https://staging.nada.bot",
   "/testnet": "https://testnet.nada.bot",
