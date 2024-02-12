@@ -95,7 +95,7 @@ const Hero = () => {
           <Lottie
             animationData={roket2}
             loop={true}
-            className="absolute -right-16 w-44 rotate-[65deg] max-lg:-right-[13%] max-lg:w-36 max-md:-right-[16vw] max-[450px]:right-[-1rem] max-[450px]:w-20"
+            className="absolute -right-16 w-44 rotate-[65deg] max-lg:-right-[13%] max-lg:w-36 max-md:-right-[16vw] max-[450px]:bottom-[-6rem] max-[450px]:right-[1rem] max-[450px]:w-24"
           />
         </div>
         <div className="searchbar relative mt-16">
