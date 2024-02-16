@@ -43,14 +43,14 @@ const Status = () => {
       //   get Humans Verified
 
       // Get All Users
-      const totalUsers = [];
+      let totalUsers = [];
       for (const provider of providers) {
         const users = await contract.get_users_for_stamp({
           provider_id: provider.provider_id,
         });
         totalUsers.push(...users);
       }
-
+      totalUsers = [...new Set(totalUsers)];
       // Verify Users
       let humanVerified = 0;
       for (const user of totalUsers) {
