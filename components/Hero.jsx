@@ -79,11 +79,11 @@ const Hero = () => {
 
         <div className="relative mt-3 flex w-full items-center justify-center gap-8 max-[450px]:gap-5">
           <a
-            href="/support"
+            href="https://app.nada.bot"
             target="_blank"
             className="btn-main text-4xl max-lg:text-3xl max-md:text-xl max-[450px]:text-base"
           >
-            <div>Get Started</div>
+            <div>Proof Humanity</div>
           </a>
           <a
             href="/docs"
