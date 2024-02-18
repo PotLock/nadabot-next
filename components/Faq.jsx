@@ -14,9 +14,9 @@ const Faq = () => {
         <DoubleLine className="relative mt-[-12px] w-[140%]" />
       </div>
       <div className="mb-12 mt-6 text-3xl text-[#7B7B7B]  max-sm:mb-8 max-sm:text-xl">
-        We got some answers for you? Not here then check out the{" "}
+        More questions? {" "}
         <a href="/support" target="_blank">
-          telegram support channel!
+          click here for the telegram support channel!
         </a>
       </div>
       <div className="bg-#FAFAFA flex w-full cursor-pointer flex-col rounded-xl border border-[#3D3D3D]">
