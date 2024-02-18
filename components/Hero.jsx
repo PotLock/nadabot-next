@@ -83,7 +83,7 @@ const Hero = () => {
             target="_blank"
             className="btn-main text-4xl max-lg:text-3xl max-md:text-xl max-[450px]:text-base"
           >
-            <div>Proof Humanity</div>
+            <div>Prove Humanity</div>
           </a>
           <a
             href="/docs"

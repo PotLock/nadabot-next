@@ -2,12 +2,12 @@ export const faqData = [
   {
     id: "1",
     qa: "How do you determine who is a human?",
-    an: "We have a human threshold, which admins set the score based on user feedback and cluster mapping for subil attacks ",
+    an: "Their is a set human minimum score and points and rules for each check. When our contract is called it adds up current points for and an account and see if it past the human threshold. Weights, rules, and minium score may change as we detect different bot behaviors across the ecoystem.",
   },
   {
     id: "2",
     qa: "What if my submitted check isn’t showing? ",
-    an: "Try refreshing the page. We are using NEAR APIjs to fetch checks from on chain data",
+    an: "Try refreshing the page. We are using NEAR API JS to fetch checks from on chain data",
   },
   {
     id: "3",
@@ -21,7 +21,7 @@ export const faqData = [
   },
   {
     id: "5",
-    qa: "How do i integrate nada.bot into my contracts?",
-    an: "Check out our docs. All you need to do is check the sybil.potlock.near contract isHuman to use our human threshold score.",
+    qa: "How do I integrate nada.bot into my contracts?",
+    an: "Check out our docs. All you need to do is check the v1..nadabot.near contract isHuman to use our human threshold score.",
   },
 ];
