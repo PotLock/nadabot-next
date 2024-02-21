@@ -26,6 +26,7 @@ const RedirectLinks = {
   "/repo": "https://github.com/PotLock/nadabot-app",
   "/requests": "https://github.com/orgs/PotLock/projects/6/views/1",
   "/request-stamp": "https://github.com/PotLock/nadabot-stamps/issues/new?assignees=&labels=stamp-request&projects=&template=request-for-stamp.md&title=%5B%E2%9C%85+STAMP+REQUEST%5D",
+  "/tutorials": "https://youtube.com/playlist?list=PLJxhkGinB9L98Gfw8684hBWKwSB9OYoi6&si=ZajNf_LjfJyzjgx0",
 };
 
 const Redirect = () => {
