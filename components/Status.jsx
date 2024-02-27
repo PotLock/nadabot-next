@@ -53,12 +53,15 @@ const Status = () => {
       totalUsers = [...new Set(totalUsers)];
       // Verify Users
       let humanVerified = 0;
-      for (const user of totalUsers) {
-        const isHuman = await contract.is_human({
+      const usersCheck = totalUsers.map((user) =>
+        contract.is_human({
           account_id: user,
-        });
+        }),
+      );
+      const usersCheckResults = await Promise.all(usersCheck);
+      usersCheckResults.forEach((isHuman) => {
         if (isHuman) humanVerified += 1;
-      }
+      });
 
       const statsData = {
         verified_providers: activeProviders.length,
