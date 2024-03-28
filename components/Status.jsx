@@ -13,6 +13,7 @@ const Status = () => {
           next: { revalidate: 3600 },
         });
         const data = await res.json();
+        console.log(data);
         if (data) {
           setStatsData(data);
         }
