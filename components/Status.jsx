@@ -1,8 +1,4 @@
 import { useState, useEffect } from "react";
-import Big from "big.js";
-import * as nearAPI from "near-api-js";
-
-const { keyStores, connect, Contract } = nearAPI;
 
 const Status = () => {
   const [statsData, setStatsData] = useState({
@@ -12,63 +8,17 @@ const Status = () => {
   });
   useEffect(() => {
     (async function () {
-      const myKeyStore = new keyStores.InMemoryKeyStore();
-
-      const connectionConfig = {
-        networkId: "mainnet",
-        keyStore: myKeyStore,
-        nodeUrl: "https://rpc.mainnet.near.org",
-        walletUrl: "https://wallet.mainnet.near.org",
-        helperUrl: "https://helper.mainnet.near.org",
-        explorerUrl: "https://explorer.mainnet.near.org",
-      };
-
-      // connect to NEAR
-      const nearConnection = await connect(connectionConfig);
-      const account = await nearConnection.account();
-      const contract = new Contract(account, "v1.nadabot.near", {
-        viewMethods: ["get_providers", "get_users_for_stamp", "is_human"],
-      });
-
-      //   get Active Provdiers
-      const activeProviders = await contract.get_providers({
-        status: "Active",
-      });
-
-      //   get Total Checks
-      const providers = await contract.get_providers();
-      let totalStamps = 0;
-      providers.forEach((provider) => (totalStamps += provider.stamp_count));
-
-      //   get Humans Verified
-
-      // Get All Users
-      let totalUsers = [];
-      for (const provider of providers) {
-        const users = await contract.get_users_for_stamp({
-          provider_id: provider.provider_id,
+      try {
+        const res = await fetch("/api/statusData", {
+          next: { revalidate: 3600 },
         });
-        totalUsers.push(...users);
+        const data = await res.json();
+        if (data) {
+          setStatsData(data);
+        }
+      } catch (err) {
+        console.log(err);
       }
-      totalUsers = [...new Set(totalUsers)];
-      // Verify Users
-      let humanVerified = 0;
-      const usersCheck = totalUsers.map((user) =>
-        contract.is_human({
-          account_id: user,
-        }),
-      );
-      const usersCheckResults = await Promise.all(usersCheck);
-      usersCheckResults.forEach((isHuman) => {
-        if (isHuman) humanVerified += 1;
-      });
-
-      const statsData = {
-        verified_providers: activeProviders.length,
-        total_checks: totalStamps,
-        verified_humans: humanVerified,
-      };
-      setStatsData(statsData);
     })();
   }, []);
   return (
