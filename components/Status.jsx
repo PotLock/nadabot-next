@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { getStatus } from "./utils";
 
 const Status = () => {
   const [statsData, setStatsData] = useState({
@@ -9,10 +10,13 @@ const Status = () => {
   useEffect(() => {
     (async function () {
       try {
-        const res = await fetch("/api/statusData", {
-          next: { revalidate: 3600 },
-        });
-        const data = await res.json();
+        // const res = await fetch("/api/statusData", {
+        //   next: { revalidate: 3600 },
+        // });
+        // const data = await res.json();
+
+        const data = await getStatus();
+
         if (data) {
           setStatsData(data);
         }
