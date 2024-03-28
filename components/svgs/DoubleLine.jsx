@@ -25,7 +25,7 @@ const DoubleLine = ({ className }) => {
         xmlns="http://www.w3.org/2000/svg"
         className=""
       >
-        <g clip-path="url(#clip0_80_128)">
+        <g clipPath="url(#clip0_80_128)">
           <motion.path
             variants={lineAnimate}
             transition={{

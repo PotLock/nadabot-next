@@ -70,7 +70,6 @@ const getStatus = async () => {
     total_checks: totalStamps,
     verified_humans: humanVerified,
   };
-  console.log(statsData);
 
   return statsData;
 };
