@@ -50,7 +50,7 @@ export const getStatus = async () => {
   const connectionConfig = {
     networkId: "mainnet",
     keyStore: myKeyStore,
-    nodeUrl: "https://rpc.mainnet.near.org",
+    nodeUrl: "https://near.lava.build",
     walletUrl: "https://wallet.mainnet.near.org",
     helperUrl: "https://helper.mainnet.near.org",
     explorerUrl: "https://explorer.mainnet.near.org",
