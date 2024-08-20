@@ -27,6 +27,8 @@ const RedirectLinks = {
   "/requests": "https://github.com/orgs/PotLock/projects/6/views/1",
   "/request-stamp": "https://github.com/PotLock/nadabot-stamps/issues/new?assignees=&labels=stamp-request&projects=&template=request-for-stamp.md&title=%5B%E2%9C%85+STAMP+REQUEST%5D",
   "/tutorials": "https://youtube.com/playlist?list=PLJxhkGinB9L98Gfw8684hBWKwSB9OYoi6&si=ZajNf_LjfJyzjgx0",
+  "/figma": "https://www.figma.com/design/ckixqGfuRKZ63tTvdJzi6j/Potlock?node-id=3346-12520",
+  "/figma-v2": "https://www.figma.com/design/ckixqGfuRKZ63tTvdJzi6j/Potlock?node-id=10520-32161",
 };
 
 const Redirect = () => {
