@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import DoubleLine from "./svgs/DoubleLine";
 import roket2 from "./animations/roket2.json";
 import Lottie from "lottie-react";
-import { shuffleMultiDimensionalArray } from "./utils";
 import { motion } from "framer-motion";
 
 const icons = [
