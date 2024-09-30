@@ -3,6 +3,7 @@ import Arrow from "../public/assets/arrow-tr.svg";
 import CardHover from "./CardHover";
 import Ellipse from "./svgs/Ellipse";
 import Image from "next/image";
+// import PotlockLogo from "../public";
 
 const Card = ({ title, text, img, url, likeLabel }) => (
   <motion.div className="flex flex-col items-center rounded-[32px] border border-[3D3D3D] bg-white p-8 text-center shadow-[4px_4px_0px_0px_#3D3D3D]">
@@ -47,13 +48,23 @@ const DappsCards = () => {
           <div className="text-2xl font-semibold max-[540px]:text-xl">
             dApps using us
           </div>
-          <div className="relative h-20 w-full max-w-64 max-[540px]:w-[70%]">
-            <Image
-              src="/assets/cheddar-logo-no-barn.png"
-              layout="fill"
-              className="object-contain"
-              alt="cheddar"
-            />
+          <div className="flex w-full items-center justify-center gap-4 px-8">
+            <div className="relative h-16 w-full max-w-64 max-[540px]:w-[70%] sm:h-20">
+              <Image
+                src="/assets/potLock-logo.svg"
+                layout="fill"
+                className="object-contain"
+                alt="Potlock"
+              />
+            </div>
+            <div className="relative h-16 w-full max-w-64 max-[540px]:w-[70%] sm:h-20">
+              <Image
+                src="/assets/cheddar-logo-no-barn.png"
+                layout="fill"
+                className="object-contain"
+                alt="cheddar"
+              />
+            </div>
           </div>
         </div>
         <div className="relative grid min-h-[650px] w-full grid-cols-2 gap-8 max-lg:h-[1200px] max-lg:grid-cols-1">
