@@ -1,5 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
-import SearchIcon from "../public/assets/hero/search-icon.svg";
+// import SearchIcon from "../public/assets/hero/search-icon.svg";
 // animations
 import Lottie from "lottie-react";
 import partyIcon from "./animations/party-cel.json";
