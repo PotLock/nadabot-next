@@ -6,7 +6,7 @@ const Navbar = () => {
         className="max-md:h-[30px] my-auto"
         alt="Logo"
       />
-      <a href="/app" target="_blank" className="btn-main">
+      <a href="https://app.nada.bot" target="_blank" className="btn-main">
         <div>Launch App</div>
       </a>
     </div>
