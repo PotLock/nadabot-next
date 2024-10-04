@@ -4,18 +4,38 @@ class CustomDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          {/* Add a title tag */}
+          <title>Nada Bot - Making Contracts Human Compatible on NEAR</title>
+
+          {/* Update and expand meta description */}
           <meta
             name="description"
-            content="Making your contracts human compatible"
+            content="Nada Bot: A protocol for configuring identity systems, making your contracts human compatible. Built on NEAR blockchain for enhanced security and user verification."
           />
-          <meta property="og:title" content="nada.bot" />
+
+          {/* Add more relevant meta tags */}
+          <meta name="keywords" content="Nada Bot, NEAR blockchain, identity systems, smart contracts, user verification, idOS, Reclaim Protocol, NEAR Protocol, Gitcoin Passport, Farcaster, Lens, Not A Bot, nadabot, Potlock, Potluck Labs, Cheddar Farm, Anti-bot, KYC Tooling, AML Tools, Airdrop Protection" />
+          <meta name="author" content="POTLOCK" />
+
+          {/* Update Open Graph tags */}
+          <meta property="og:title" content="Nada Bot - Identity Systems on NEAR" />
           <meta
             property="og:description"
-            content="Making sure your users are not a bot, built on NEAR"
+            content="Nada Bot: Ensuring your users are not bots. Configure secure identity systems built on NEAR blockchain."
           />
-          <meta property="twitter:card" content="summary_large_image"></meta>
-          <meta name="image" content="/preview.png" />
-          <meta property="og:image" content="/preview.png" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://nada.bot" />
+
+          {/* Update Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Nada Bot - Identity Systems on NEAR" />
+          <meta name="twitter:description" content="Secure identity systems and user verification built on NEAR blockchain." />
+          <meta name="twitter:image" content="https://nada.bot/preview.png" />
+
+          {/* Update image URLs to be absolute */}
+          <meta name="image" content="https://nada.bot/preview.png" />
+          <meta property="og:image" content="https://nada.bot/preview.png" />
+
           <link
             rel="apple-touch-icon"
             sizes="180x180"

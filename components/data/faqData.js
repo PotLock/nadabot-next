@@ -12,7 +12,7 @@ export const faqData = [
   {
     id: "3",
     qa: "Can I use your contract outside of NEAR?",
-    an: "Currently nada.bot is a contract based aggregator on NEAR. We will be posting our proofs to idOS by Fractal to be used chain-agnostically through thier SDK",
+    an: "Currently nada.bot is a contract based aggregator on NEAR. We will begin posting proofs on frameworks like Reclaim Protocol to be used chain-agnosticall",
   },
   {
     id: "4",
