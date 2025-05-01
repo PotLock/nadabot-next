@@ -32,7 +32,7 @@ export const socialLinks = [
   },
   {
     icon: <Linkedin />,
-    url: "/linkedin",
+    url: "https://www.linkedin.com/company/potlock",
   },
   {
     icon: <Telegram />,

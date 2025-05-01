@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const RedirectLinks = {
   "/twitter": "https://twitter.com/nadabots",
-  "/linkedin": "https://www.linkedin.com/company/nada-bot/",
+  "/linkedin": "https://www.linkedin.com/company/potlock/",
   "/bos":
     "https://near.social/mob.near/widget/ProfilePage?accountId=nadabot.near",
     "/integrate": "https://docs.nada.bot/guides/for-applications",
